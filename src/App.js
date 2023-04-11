@@ -20,10 +20,8 @@ function App() {
       <div className='grid grid-cols-2 gap-4 p-8 '>
 			{users.map(user => <User key={user.id} user={user} />)}
 		</div>
-
   </div>
 	);
-
 }
 
 export default App;
